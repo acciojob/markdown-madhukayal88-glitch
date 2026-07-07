@@ -18,7 +18,7 @@
     "jsdom": "^16.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-markdown": "^8.0.7",
+    "react-markdown": "^7.1.2",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12"
   },
