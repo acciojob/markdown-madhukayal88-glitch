@@ -10,7 +10,7 @@ function MarkdownEditor() {
   }, [markdown]);
 
   return (
-    <div className="editor">
+    <>
       <textarea
         className="textarea"
         value={markdown}
@@ -20,7 +20,7 @@ function MarkdownEditor() {
       <div className="preview">
         <ReactMarkdown>{preview}</ReactMarkdown>
       </div>
-    </div>
+    </>
   );
 }
 
