@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
 function MarkdownEditor() {
-  const [markdown, setMarkdown] = useState("# Welcome to Markdown Editor");
+ const [markdown, setMarkdown] = useState(
+  "# Welcome to Markdown Editor\nWelcome to Markdown Editor"
+);
   const [preview, setPreview] = useState("");
 
   useEffect(() => {
